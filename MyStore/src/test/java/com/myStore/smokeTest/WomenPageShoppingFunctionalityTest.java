@@ -36,7 +36,7 @@ public class WomenPageShoppingFunctionalityTest extends BasePage {
 
 	@Test(enabled = false)
 	public void verifyShoppingFilterByPriceFunction() throws Exception {
-		logger.info("Test Case 3.1 Is Really and Really  Starting!");
+		logger.info("Test Case 3.1 Is Really and Really  and really  Starting!");
 		myStoreHomePage.goto_MyStoreSite();
 		myStoreHomePage.click_OnWomenLink();
 		myWomenMainPage.wait_ForPageLoadComplete();
