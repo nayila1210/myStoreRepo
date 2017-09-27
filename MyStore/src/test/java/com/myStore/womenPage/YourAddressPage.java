@@ -52,7 +52,7 @@ public class YourAddressPage extends BasePage {
 			driver.findElement(By.id("city")).clear();
 			driver.findElement(By.id("city")).sendKeys("Urumqi");
 		} catch (Exception e) {
-			logger.error("Error!! It Did Not Edit Address One");
+			logger.error("Error!! It Did Not Edit Address One on eone ");
 		}
 		return this;
 	}
